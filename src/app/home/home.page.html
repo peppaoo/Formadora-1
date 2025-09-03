@@ -8,23 +8,17 @@
 
 
 <ion-content [fullscreen]="true">
-  <ion-list>
-  <ion-item>
-    <ion-label>Lucas Cardoso Ventura Gomes</ion-label>
-  </ion-item>
-  <ion-item>
-    <ion-label>Turma ADS Bangu</ion-label>
-  </ion-item>
-  <ion-item>
-    <ion-img src="assets/Peppao preto.png" 
-           style="width: 200px; border-radius: 12px; display: block; margin: 20px auto;">
-  </ion-img>
-  </ion-item>
-</ion-list>
-<ion-button style="display: block; margin: 20px auto; width: 200px;" routerLink="/sobre">
+<ion-card>
+  <img alt="Silhouette of mountains" src="assets/Peppao preto.png" />
+
+  <ion-card-content>
+    <h1>Lucas Cardoso Ventura Gomes</h1>
+    <h1>ADS Bangu</h1>
+    <ion-button style="display: block; margin: 20px auto; width: 200px;" routerLink="/sobre">
     Sobre
   </ion-button>
-
+  </ion-card-content>
+</ion-card>
   <ion-header collapse="condense">
     
     <ion-toolbar>
